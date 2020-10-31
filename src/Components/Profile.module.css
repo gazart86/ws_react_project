@@ -1,0 +1,10 @@
+
+.content {
+   grid-area: content;
+   background-color: azure;
+}
+
+.content img {
+   width: 100%;
+   vertical-align: top;
+}
