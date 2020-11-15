@@ -1,20 +1,23 @@
-
 .nav {
    grid-area: nav;
    background-color: #07B568;
-   padding: 5px;
+   padding: 15px;
 }
 
-.item {
+.item a {
    color: #fff;
    transition: .2s;
+   line-height: 30px;
+   text-decoration: none;
 }
 
-.item.active {
-   background-color: chocolate;
+.item a.active {
+   color: yellow;
 }
 
-.item:hover {
+
+
+.item a:hover {
    color: #000;
    cursor: pointer;
 }
